@@ -1,0 +1,15 @@
+{
+  "parent": "../shared/.sharedrc",
+  "settings": {
+    "size": {
+      "width": 300,
+      "height": 250
+    },
+    "entry": {}
+  },
+  "content": {
+    "size": "300x250",
+    "bg": "../shared/img/bg_300x250.jpg",
+    "product": "../shared/img/product_300x250.png"
+  }
+}

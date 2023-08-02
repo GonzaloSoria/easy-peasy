@@ -1,0 +1,15 @@
+{
+  "parent": "../shared/.sharedrc",
+  "settings": {
+    "size": {
+      "width": 728,
+      "height": 90
+    },
+    "entry": {}
+  },
+  "content": {
+    "css": "./css/style.css",
+    "bg": "../shared/img/bg_728x90.jpg",
+    "product": "../shared/img/product.png"
+  }
+}

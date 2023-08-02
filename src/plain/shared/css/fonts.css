@@ -1,0 +1,17 @@
+@font-face {
+  font-family: NexaHeavy;
+  src: 
+    url('../fonts/Nexa-Heavy.woff') format('woff'),
+    url('../fonts/Nexa-Heavy.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NexaBook;
+  src: 
+    url('../fonts/Nexa-Book.woff') format('woff'),
+    url('../fonts/Nexa-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "browserSupport": ["> 1%", "not ie 11"],
+    "optimizations": {
+      "css": true,
+      "image": true,
+      "html": true,
+      "js": true
+    },
+    "useOriginalFileNames": false,
+    "entry": {
+      "js": "./script/main.js",
+      "html": "./index.hbs"
+    },
+    "fonts": [
+      {
+        "sources": [
+          "./fonts/Nexa-Heavy.woff",
+          "./fonts/Nexa-Heavy.woff2"
+        ],
+        "subset": {
+          "glyphs": ["content.copy_a", "content.copy_b", "content.cta"]
+        }
+      },
+      {
+        "sources": [
+          "./fonts/Nexa-Book.woff",
+          "./fonts/Nexa-Book.woff2"
+        ],
+        "subset": {
+          "glyphs": ["content.copy_c"]
+        }
+      }
+    ]
+  },
+  "content": {
+    "css": "./css/style.css",
+    "defaultFonts": [
+      "NexaHeavy",
+      "NexaBook"
+    ],
+    "defaultFontUrl": "./css/fonts.css",
+    "clickTag": "https://www.google.com",
+    "copy_a": "fast*, non-drowsy, 24-hour allergy&nbsp;relief",
+    "copy_b": "live your greatness",
+    "copy_c": "*starts working in one hour.",
+    "cta": "take allegra"
+  }
+}

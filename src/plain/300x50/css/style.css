@@ -1,0 +1,122 @@
+@import url("../../shared/css/style.css");
+
+:root {
+  --red: #d51b28;
+  --grey: #221f1f;
+  --white: #221f1f;
+
+  --width: var(--settings-size-width)px;
+  --height: var(--settings-size-height)px;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  user-select: none;
+}
+
+body {
+  background-color: #8d2f9a;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fullscreen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--width);
+  height: var(--height);
+}
+
+.border {
+  border: 1px solid #000000;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  width: var(--width);
+  height: var(--height);
+}
+
+.content {
+  opacity: 0;
+}
+
+.bg {
+  position: absolute;
+  width: 246px;
+}
+
+.product {
+  position: absolute;
+  bottom: -8px;
+  right: 5px;
+  width: 78px;
+}
+
+.copy_container {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  height: 250px;
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 55%;
+}
+
+.copy_b {
+  font-size: 7px;
+  position: absolute;
+  top: 34px;
+  left: 0px;
+}
+
+.copy_c {
+  position: absolute;
+  top: 33px;
+  left: 88px;
+  font-size: 4px;
+}
+
+.mainExit {
+  cursor: pointer;
+}
+
+.cta {
+  position: absolute;
+  bottom: 19px;
+  left: 168px;
+  width: 64px;
+  height: 13px;
+  overflow: hidden;
+  will-change: transform;
+  background-color: #ffffff;
+}
+
+.cta_copy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  padding: 0px 0px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 7px;
+  font-weight: bold;
+  color: #8d2f9a;
+  text-transform: uppercase;
+}
+
